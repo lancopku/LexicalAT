@@ -1,6 +1,6 @@
 # Lexical-AT 
 This is the codes of our paper: LexicalAT: Lexical-Based Adversarial Reinforcement Trainingfor Robust Sentiment Classification.
-![The architecture of our Lexical-AT](https://github.com/lancopku/LexicalAT/blob/master/model.jpg)
+![The architecture of our Lexical-AT](https://github.com/lancopku/LexicalAT/blob/master/model.png)
 # Requirements
 * Ubuntu 16.0.4
 * Python 3.6
@@ -13,7 +13,7 @@ cd cnn_lstm
 CUDA_VISIBLE_DEVIVES=0 bash sst_adv_cnn.sh
 ```
 ## For Bert
-Before executing the command below, you need to download the pretrained model and vocabulary of bert. The download url and other detaild information can be found in [bert](https://github.com/google-research/bert).
+Before executing the command below, you need to download the pretrained model and vocabulary of bert. The download url and other detailed information can be found in [bert](https://github.com/google-research/bert).
 ```
 cd bert 
 CUDA_VISIBLE_DEVICES=0 bash rt_adv_bert.sh
