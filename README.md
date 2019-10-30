@@ -1,6 +1,6 @@
 # Lexical-AT 
 This is the codes of our paper: LexicalAT: Lexical-Based Adversarial Reinforcement Trainingfor Robust Sentiment Classification.
-![The architecture of our Lexical-AT](model.jpg)
+![The architecture of our Lexical-AT](https://github.com/lancopku/LexicalAT/blob/master/model.jpg)
 # Requirements
 * Ubuntu 16.0.4
 * Python 3.6
